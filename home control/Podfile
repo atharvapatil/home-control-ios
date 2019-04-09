@@ -7,5 +7,7 @@ target 'home control' do
 
   # Pods for home control
   pod "SwiftSiriWaveformView"
+  pod "Haptica"
+  pod "Peep"
 
 end

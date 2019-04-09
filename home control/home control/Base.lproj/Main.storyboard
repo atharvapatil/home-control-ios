@@ -30,6 +30,16 @@
                                 <color key="textColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AMq-1c-JEl">
+                                <rect key="frame" x="630" y="83" width="117" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                                <state key="normal" title="Haptic test"/>
+                                <connections>
+                                    <action selector="hapticTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wT4-cW-ZPd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -37,6 +47,7 @@
                     <connections>
                         <outlet property="audioWaveView" destination="oIF-BD-CCZ" id="6m4-K7-b24"/>
                         <outlet property="detectedTextLabel" destination="1ed-R5-Tqh" id="msv-ha-LTL"/>
+                        <outlet property="hapticResponder" destination="AMq-1c-JEl" id="4dE-Lp-J2w"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

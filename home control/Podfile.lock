@@ -1,16 +1,24 @@
 PODS:
+  - Haptica (2.2.3)
+  - Peep (2.1.2)
   - SwiftSiriWaveformView (2.4.0)
 
 DEPENDENCIES:
+  - Haptica
+  - Peep
   - SwiftSiriWaveformView
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Haptica
+    - Peep
     - SwiftSiriWaveformView
 
 SPEC CHECKSUMS:
+  Haptica: 9b4e210ecf506b9f96c2a7746a8d945452ec344b
+  Peep: adfea4fc564a121ec467bfa5f7edd2f9b3c4de27
   SwiftSiriWaveformView: baa04ed2089e854af00ea54c38a7700ca43d7ae0
 
-PODFILE CHECKSUM: 3a51bbd44357125a426125389dd27be7bef6d456
+PODFILE CHECKSUM: 6d9ec18e1fb676ab5368fa1b25b2c64ae15bd3db
 
 COCOAPODS: 1.6.1

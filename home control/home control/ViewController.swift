@@ -12,6 +12,8 @@
 import UIKit
 import Speech
 import SwiftSiriWaveformView
+import Haptica
+import Peep
 
 
 class ViewController: UIViewController, SFSpeechRecognizerDelegate, AVAudioRecorderDelegate {
@@ -27,6 +29,12 @@ class ViewController: UIViewController, SFSpeechRecognizerDelegate, AVAudioRecor
     
     var recorder: AVAudioRecorder!
 
+    @IBOutlet weak var hapticResponder: UIButton!{
+        didSet {
+            hapticResponder.addHaptic(.impact(.heavy), forControlEvents: .touchUpInside)
+        }
+    }
+    
     
     @IBOutlet weak var audioWaveView: SwiftSiriWaveformView!
     
@@ -75,6 +83,11 @@ class ViewController: UIViewController, SFSpeechRecognizerDelegate, AVAudioRecor
         
 //        colourView.backgroundColor = .green
     }
+    
+    @IBAction func hapticTouch(_ sender: UIButton) {
+         Peep.play(sound: AlertTone.tweet)
+    }
+    
     
     func requestSpeechAuthorization() {
         SFSpeechRecognizer.requestAuthorization { authStatus in
@@ -138,9 +151,10 @@ class ViewController: UIViewController, SFSpeechRecognizerDelegate, AVAudioRecor
                     
                     let string = lastSegment.substring
                     
-                    if string.lowercased() == "on" {
+                    if string.lowercased() == "eat" {
                         self.view.backgroundColor = .green
-                    } else if string.lowercased() == "off" {
+                    } else if string.lowercased() == "be" {
+                        Haptic.play("..oO-Oo..", delay: 0.1)
                         self.view.backgroundColor = .red
                     } else if string.lowercased() == "black" {
                         self.view.backgroundColor = .black

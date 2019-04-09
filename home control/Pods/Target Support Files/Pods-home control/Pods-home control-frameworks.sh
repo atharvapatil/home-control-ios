@@ -153,9 +153,13 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/Haptica/Haptica.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Peep/Peep.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftSiriWaveformView/SwiftSiriWaveformView.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/Haptica/Haptica.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Peep/Peep.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftSiriWaveformView/SwiftSiriWaveformView.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

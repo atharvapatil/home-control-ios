@@ -7,68 +7,144 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05D7C3DBAAEF76734E2B21619BF5DB01 /* SwiftSiriWaveformView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F6CAFD2CA0BF95618B02C818A878119 /* SwiftSiriWaveformView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		05F6B78F8C99E8AC6A329E4CBEA1E951 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		955CF49DE023C65E258C5AA50F2F7198 /* SwiftSiriWaveformView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C71A9232593D788211AAEED1CB46B6B5 /* SwiftSiriWaveformView-dummy.m */; };
-		C4FBB7D2ED0296DA78D3942E313A9B94 /* Pods-home control-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DF7581CFFCECB6EFBC65D7422C62200 /* Pods-home control-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D87087D9B465BC0088D142821EF29BB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		DD682A92E07390C6303F014011ED747D /* SwiftSiriWaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88B6B79506FA1F4C1129F128FBAE5D2 /* SwiftSiriWaveformView.swift */; };
-		E6511C4D67645B73013924EE3803808B /* Pods-home control-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F19B3A84A278FC69C8AE48CF586DB25 /* Pods-home control-dummy.m */; };
+		0B4DDBCE521DED4650D69772F6605760 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		0FE647318EA744032B74FA37932D70B5 /* Peep-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1787F442E5B1B9D9A274E48342E529A3 /* Peep-dummy.m */; };
+		11D69A880D75079E80168D641A768180 /* Haptica-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DAA2858955741360D210B31A70EC3C /* Haptica-dummy.m */; };
+		1887F85695C8445EF60F0FF8C75E350A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		2650BC20C3CB08ABA39892E7BF5EF63A /* Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562B1C7C99DF008E4E18B75FC76E0F2E /* Pattern.swift */; };
+		316792585C98CAD893F1DA8CEBF0EC05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		36EC6BDE96B0137E95154BD975C52668 /* SwiftSiriWaveformView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84878D42C81CC32E0C0B5587E7A62BB7 /* SwiftSiriWaveformView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D0404F1B815D9F4B76512AA1C081CF0 /* SwiftSiriWaveformView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 210A1F50404C131ECEF480D444D9434E /* SwiftSiriWaveformView-dummy.m */; };
+		67D0EB7FCAB57D1D09F250CE095DCE55 /* Associated.swift in Sources */ = {isa = PBXBuildFile; fileRef = A886902A9094912C7ECEBFDE275A7FFA /* Associated.swift */; };
+		7120B13183CA74B0C2D152CC9BEBEAE2 /* Peep-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA70102D35CF5C1837FF0DEBAC1AAA7A /* Peep-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6DCD755C989A5D56E82BB3D7C155872 /* Hapticable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409BD9BDEA4F43505E444856654C2E55 /* Hapticable.swift */; };
+		A79B785196780AA0CC64344C795481A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		B1CD6A1FBE5CAEC1C5A8FD564C41E8AA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61F47EAA66D592D9B0BAD4CDBBD6026 /* Extensions.swift */; };
+		C27357AF7CACB81C8CA93CAB01ABC888 /* Peep.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF28A91444010A6FCAF427E8251B3A7 /* Peep.swift */; };
+		DE430218B618C0A4801AE929C1802D01 /* Haptic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7572F5E22AE508C79FBF2BA756021A6 /* Haptic.swift */; };
+		DE97D5204A73E2779790CECC52BFF1B4 /* Haptica-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADCBBC90B67049A6B93A6EEB1F5F2F0F /* Haptica-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F899EAEA85F0619ADB9A4786817B6DF8 /* Pods-home control-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F19B3A84A278FC69C8AE48CF586DB25 /* Pods-home control-dummy.m */; };
+		F99AD65E70B3F77807E71A193445F150 /* Pods-home control-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DF7581CFFCECB6EFBC65D7422C62200 /* Pods-home control-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9CA3CFBA6B93F3197F8280376C65983 /* SwiftSiriWaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FDBCF35A1847CB974FBA04C41B2A5C /* SwiftSiriWaveformView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0FD11F1B6A30F20908D27F2BD9B200D6 /* PBXContainerItemProxy */ = {
+		00E6DBD43734096CA29A27634367479A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DCF3DB9F9D0CA7AD66B7166BB9300247;
+			remoteGlobalIDString = 33CD8AB1BC9E8BA388FD0EFAB601B3E6;
 			remoteInfo = SwiftSiriWaveformView;
+		};
+		46FBECC6CA6E8499E31FBF667FE2FD97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7517CF86D270C70047D94D3C176D546;
+			remoteInfo = Haptica;
+		};
+		4EA2EA373C04EA077D5F8B0CEA9DC93E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D1D38F25C0E5764482DB77596403BB1;
+			remoteInfo = Peep;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0355F8BBCD6D0A98D53A6B5005C5039E /* Pods-home control.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-home control.modulemap"; sourceTree = "<group>"; };
-		09F0D377D248282B135AC6220ABA6538 /* SwiftSiriWaveformView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSiriWaveformView-prefix.pch"; sourceTree = "<group>"; };
+		075F8022CF04E9372E1D1733731F4FE4 /* Peep-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Peep-prefix.pch"; sourceTree = "<group>"; };
 		0C9195CF2E5166121D7FAF49546A367F /* Pods-home control-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-home control-frameworks.sh"; sourceTree = "<group>"; };
-		1F6CAFD2CA0BF95618B02C818A878119 /* SwiftSiriWaveformView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSiriWaveformView-umbrella.h"; sourceTree = "<group>"; };
-		2886C615A186996B13148E9C3E922AD3 /* Pods_home_control.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_home_control.framework; path = "Pods-home control.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1787F442E5B1B9D9A274E48342E529A3 /* Peep-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Peep-dummy.m"; sourceTree = "<group>"; };
+		1D07E2B76A439CF7DC455F73B0B46939 /* Peep-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Peep-Info.plist"; sourceTree = "<group>"; };
+		1E5D0926B190EAEFB58D64D0207E9297 /* Peep.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Peep.modulemap; sourceTree = "<group>"; };
+		210A1F50404C131ECEF480D444D9434E /* SwiftSiriWaveformView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSiriWaveformView-dummy.m"; sourceTree = "<group>"; };
+		22FDBCF35A1847CB974FBA04C41B2A5C /* SwiftSiriWaveformView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSiriWaveformView.swift; path = Pod/Classes/SwiftSiriWaveformView.swift; sourceTree = "<group>"; };
+		2AD0AD86D8E709F9B55400F3968E396E /* Pods_home_control.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_home_control.framework; path = "Pods-home control.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F19B3A84A278FC69C8AE48CF586DB25 /* Pods-home control-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-home control-dummy.m"; sourceTree = "<group>"; };
-		2FE3E4E07DC34AEA4FEA40A74D9DE49C /* SwiftSiriWaveformView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSiriWaveformView.xcconfig; sourceTree = "<group>"; };
+		3334BC7297862B172C017863A4227179 /* Haptica.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Haptica.framework; path = Haptica.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37DAA2858955741360D210B31A70EC3C /* Haptica-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Haptica-dummy.m"; sourceTree = "<group>"; };
+		409BD9BDEA4F43505E444856654C2E55 /* Hapticable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hapticable.swift; path = Sources/Hapticable.swift; sourceTree = "<group>"; };
+		4B74024E244746B3C3412A16F402A51B /* Haptica.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Haptica.xcconfig; sourceTree = "<group>"; };
+		53FAF6CA500856F0FC9078FA5EFB5E56 /* SwiftSiriWaveformView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftSiriWaveformView.framework; path = SwiftSiriWaveformView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		562B1C7C99DF008E4E18B75FC76E0F2E /* Pattern.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pattern.swift; path = Sources/Pattern.swift; sourceTree = "<group>"; };
 		5BA8B0940A9728BAA07BA0BD8E9194A8 /* Pods-home control.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-home control.debug.xcconfig"; sourceTree = "<group>"; };
-		884AC0CAF4EEF3A7C3BD0873A543E67E /* SwiftSiriWaveformView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftSiriWaveformView.modulemap; sourceTree = "<group>"; };
+		6DA39062C3C275A891BB45266FAA00FB /* Peep.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Peep.framework; path = Peep.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E21487AA352F56357C01E194964049B /* Haptica-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Haptica-Info.plist"; sourceTree = "<group>"; };
+		84878D42C81CC32E0C0B5587E7A62BB7 /* SwiftSiriWaveformView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSiriWaveformView-umbrella.h"; sourceTree = "<group>"; };
+		8D7BF7244F21953E1079AA964F044E40 /* Haptica-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Haptica-prefix.pch"; sourceTree = "<group>"; };
 		8DF7581CFFCECB6EFBC65D7422C62200 /* Pods-home control-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-home control-umbrella.h"; sourceTree = "<group>"; };
+		8EAA16E7538E81B912FFB87BE6C40B80 /* Peep.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Peep.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A102E036BA10C4A9A262FA94BA873B78 /* SwiftSiriWaveformView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSiriWaveformView-prefix.pch"; sourceTree = "<group>"; };
+		A886902A9094912C7ECEBFDE275A7FFA /* Associated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Associated.swift; path = Sources/Associated.swift; sourceTree = "<group>"; };
+		ADCBBC90B67049A6B93A6EEB1F5F2F0F /* Haptica-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Haptica-umbrella.h"; sourceTree = "<group>"; };
 		B4FE3C45CA615BC00E74D57C8AA4E6F2 /* Pods-home control.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-home control.release.xcconfig"; sourceTree = "<group>"; };
-		C4954A6A892B9C0706F5F8837F8881EC /* SwiftSiriWaveformView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftSiriWaveformView-Info.plist"; sourceTree = "<group>"; };
-		C538D1339EF7B3D82243208D984E584B /* SwiftSiriWaveformView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftSiriWaveformView.framework; path = SwiftSiriWaveformView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C71A9232593D788211AAEED1CB46B6B5 /* SwiftSiriWaveformView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSiriWaveformView-dummy.m"; sourceTree = "<group>"; };
+		B7572F5E22AE508C79FBF2BA756021A6 /* Haptic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Haptic.swift; path = Sources/Haptic.swift; sourceTree = "<group>"; };
+		B98E72E8BD5ADCDD6ADA2A0B1E301673 /* SwiftSiriWaveformView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftSiriWaveformView-Info.plist"; sourceTree = "<group>"; };
+		BDF28A91444010A6FCAF427E8251B3A7 /* Peep.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Peep.swift; path = Sources/Peep.swift; sourceTree = "<group>"; };
+		BECD31ECD11EA583D45AD863470FE2A5 /* SwiftSiriWaveformView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftSiriWaveformView.modulemap; sourceTree = "<group>"; };
+		C26A49FD95D9370D8C5FE7453A48E758 /* SwiftSiriWaveformView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSiriWaveformView.xcconfig; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E4AB7DB3641B3C992B90EE25E42375A9 /* Pods-home control-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-home control-acknowledgements.plist"; sourceTree = "<group>"; };
+		E61F47EAA66D592D9B0BAD4CDBBD6026 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/Extensions.swift; sourceTree = "<group>"; };
+		E7C84AB55678623A6B064037281A6641 /* Haptica.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Haptica.modulemap; sourceTree = "<group>"; };
+		EA70102D35CF5C1837FF0DEBAC1AAA7A /* Peep-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Peep-umbrella.h"; sourceTree = "<group>"; };
 		EF24AE0D23897C9372879F81AEB02AAA /* Pods-home control-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-home control-Info.plist"; sourceTree = "<group>"; };
 		F506C316CF551FF236887CD63B84EC69 /* Pods-home control-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-home control-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F88B6B79506FA1F4C1129F128FBAE5D2 /* SwiftSiriWaveformView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSiriWaveformView.swift; path = Pod/Classes/SwiftSiriWaveformView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EB5224B43FBD68399EBF6186F0EE6775 /* Frameworks */ = {
+		64C2B83574C929D3AA62BCCA4AF7EC69 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05F6B78F8C99E8AC6A329E4CBEA1E951 /* Foundation.framework in Frameworks */,
+				A79B785196780AA0CC64344C795481A6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F46E06CC3363D850A11EC2C5D131C458 /* Frameworks */ = {
+		727B73AF89CA399A22C50A3E3F6DF47C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D87087D9B465BC0088D142821EF29BB2 /* Foundation.framework in Frameworks */,
+				0B4DDBCE521DED4650D69772F6605760 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89F1B1E407DE315465319C088F53E4DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1887F85695C8445EF60F0FF8C75E350A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B3108A16569D8F13D19F2732B973A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				316792585C98CAD893F1DA8CEBF0EC05 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04C4A1C001977B037B2905172D850D17 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E5D0926B190EAEFB58D64D0207E9297 /* Peep.modulemap */,
+				8EAA16E7538E81B912FFB87BE6C40B80 /* Peep.xcconfig */,
+				1787F442E5B1B9D9A274E48342E529A3 /* Peep-dummy.m */,
+				1D07E2B76A439CF7DC455F73B0B46939 /* Peep-Info.plist */,
+				075F8022CF04E9372E1D1733731F4FE4 /* Peep-prefix.pch */,
+				EA70102D35CF5C1837FF0DEBAC1AAA7A /* Peep-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Peep";
+			sourceTree = "<group>";
+		};
 		32910D5FC96222FAC9864C4D30FBE76C /* Pods-home control */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,36 +162,52 @@
 			path = "Target Support Files/Pods-home control";
 			sourceTree = "<group>";
 		};
-		69BD53EF63D0AB4C31BDA0697F75269E /* Pods */ = {
+		3DD2482EC26C045BD428C14E93CE1495 /* Haptica */ = {
 			isa = PBXGroup;
 			children = (
-				87C64C87ABA2967B0FCA5129549561E7 /* SwiftSiriWaveformView */,
+				A886902A9094912C7ECEBFDE275A7FFA /* Associated.swift */,
+				E61F47EAA66D592D9B0BAD4CDBBD6026 /* Extensions.swift */,
+				B7572F5E22AE508C79FBF2BA756021A6 /* Haptic.swift */,
+				409BD9BDEA4F43505E444856654C2E55 /* Hapticable.swift */,
+				562B1C7C99DF008E4E18B75FC76E0F2E /* Pattern.swift */,
+				852508F57090A851BDC0FC0313DA8F62 /* Support Files */,
+			);
+			name = Haptica;
+			path = Haptica;
+			sourceTree = "<group>";
+		};
+		6BB587913FD33742DD0BF170EA2E68A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DD2482EC26C045BD428C14E93CE1495 /* Haptica */,
+				B048A9B057E3986B1F922C8EF1972F99 /* Peep */,
+				814E4BEE32BD81FCD96A77BCC771C2F7 /* SwiftSiriWaveformView */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		87C64C87ABA2967B0FCA5129549561E7 /* SwiftSiriWaveformView */ = {
+		814E4BEE32BD81FCD96A77BCC771C2F7 /* SwiftSiriWaveformView */ = {
 			isa = PBXGroup;
 			children = (
-				F88B6B79506FA1F4C1129F128FBAE5D2 /* SwiftSiriWaveformView.swift */,
-				993C270816620027652FDB19C7674754 /* Support Files */,
+				22FDBCF35A1847CB974FBA04C41B2A5C /* SwiftSiriWaveformView.swift */,
+				9E5DFC77CC65C2699850D8768A4D6CBC /* Support Files */,
 			);
 			name = SwiftSiriWaveformView;
 			path = SwiftSiriWaveformView;
 			sourceTree = "<group>";
 		};
-		993C270816620027652FDB19C7674754 /* Support Files */ = {
+		852508F57090A851BDC0FC0313DA8F62 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				884AC0CAF4EEF3A7C3BD0873A543E67E /* SwiftSiriWaveformView.modulemap */,
-				2FE3E4E07DC34AEA4FEA40A74D9DE49C /* SwiftSiriWaveformView.xcconfig */,
-				C71A9232593D788211AAEED1CB46B6B5 /* SwiftSiriWaveformView-dummy.m */,
-				C4954A6A892B9C0706F5F8837F8881EC /* SwiftSiriWaveformView-Info.plist */,
-				09F0D377D248282B135AC6220ABA6538 /* SwiftSiriWaveformView-prefix.pch */,
-				1F6CAFD2CA0BF95618B02C818A878119 /* SwiftSiriWaveformView-umbrella.h */,
+				E7C84AB55678623A6B064037281A6641 /* Haptica.modulemap */,
+				4B74024E244746B3C3412A16F402A51B /* Haptica.xcconfig */,
+				37DAA2858955741360D210B31A70EC3C /* Haptica-dummy.m */,
+				7E21487AA352F56357C01E194964049B /* Haptica-Info.plist */,
+				8D7BF7244F21953E1079AA964F044E40 /* Haptica-prefix.pch */,
+				ADCBBC90B67049A6B93A6EEB1F5F2F0F /* Haptica-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/SwiftSiriWaveformView";
+			path = "../Target Support Files/Haptica";
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -126,13 +218,39 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		AA0B094BDF5C3DEA1BDF30AF408CB6AE /* Products */ = {
+		9E5DFC77CC65C2699850D8768A4D6CBC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2886C615A186996B13148E9C3E922AD3 /* Pods_home_control.framework */,
-				C538D1339EF7B3D82243208D984E584B /* SwiftSiriWaveformView.framework */,
+				BECD31ECD11EA583D45AD863470FE2A5 /* SwiftSiriWaveformView.modulemap */,
+				C26A49FD95D9370D8C5FE7453A48E758 /* SwiftSiriWaveformView.xcconfig */,
+				210A1F50404C131ECEF480D444D9434E /* SwiftSiriWaveformView-dummy.m */,
+				B98E72E8BD5ADCDD6ADA2A0B1E301673 /* SwiftSiriWaveformView-Info.plist */,
+				A102E036BA10C4A9A262FA94BA873B78 /* SwiftSiriWaveformView-prefix.pch */,
+				84878D42C81CC32E0C0B5587E7A62BB7 /* SwiftSiriWaveformView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftSiriWaveformView";
+			sourceTree = "<group>";
+		};
+		A3E732D8DC9AAC377B9F3D19A3AAE30F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3334BC7297862B172C017863A4227179 /* Haptica.framework */,
+				6DA39062C3C275A891BB45266FAA00FB /* Peep.framework */,
+				2AD0AD86D8E709F9B55400F3968E396E /* Pods_home_control.framework */,
+				53FAF6CA500856F0FC9078FA5EFB5E56 /* SwiftSiriWaveformView.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B048A9B057E3986B1F922C8EF1972F99 /* Peep */ = {
+			isa = PBXGroup;
+			children = (
+				BDF28A91444010A6FCAF427E8251B3A7 /* Peep.swift */,
+				04C4A1C001977B037B2905172D850D17 /* Support Files */,
+			);
+			name = Peep;
+			path = Peep;
 			sourceTree = "<group>";
 		};
 		C03BEDDF208BD6255C29DE323F431F18 /* Targets Support Files */ = {
@@ -148,8 +266,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				69BD53EF63D0AB4C31BDA0697F75269E /* Pods */,
-				AA0B094BDF5C3DEA1BDF30AF408CB6AE /* Products */,
+				6BB587913FD33742DD0BF170EA2E68A2 /* Pods */,
+				A3E732D8DC9AAC377B9F3D19A3AAE30F /* Products */,
 				C03BEDDF208BD6255C29DE323F431F18 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -165,52 +283,49 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5210A55C8168778B71DB2B6A7632AEE1 /* Headers */ = {
+		0DA7E4C0290E92472EB7BC3B13CE9E2F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05D7C3DBAAEF76734E2B21619BF5DB01 /* SwiftSiriWaveformView-umbrella.h in Headers */,
+				7120B13183CA74B0C2D152CC9BEBEAE2 /* Peep-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C41249B03FEB04C15F246905FB7CA27 /* Headers */ = {
+		45909FCA2E0B94FDA4FF2209399F9CEC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4FBB7D2ED0296DA78D3942E313A9B94 /* Pods-home control-umbrella.h in Headers */,
+				36EC6BDE96B0137E95154BD975C52668 /* SwiftSiriWaveformView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		855E9349591A3DDB6DC65A354ECE6684 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE97D5204A73E2779790CECC52BFF1B4 /* Haptica-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3A6CB46CEF4FF3870BCEAB7D44C983 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F99AD65E70B3F77807E71A193445F150 /* Pods-home control-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1195909753D18E2046BFCCE72DCE53C8 /* Pods-home control */ = {
+		33CD8AB1BC9E8BA388FD0EFAB601B3E6 /* SwiftSiriWaveformView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 07E66B0C22A886DC2B32990437FAB620 /* Build configuration list for PBXNativeTarget "Pods-home control" */;
+			buildConfigurationList = E78C09FC5557D87BA296BF7AF6CAAEDD /* Build configuration list for PBXNativeTarget "SwiftSiriWaveformView" */;
 			buildPhases = (
-				9C41249B03FEB04C15F246905FB7CA27 /* Headers */,
-				9F54C08C7810E34703B718BD9015347F /* Sources */,
-				EB5224B43FBD68399EBF6186F0EE6775 /* Frameworks */,
-				4F4DA70D80EC8A98614FFBF4DA326A31 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				294B1490D502CEDF6FC6CDBDC65F1D76 /* PBXTargetDependency */,
-			);
-			name = "Pods-home control";
-			productName = "Pods-home control";
-			productReference = 2886C615A186996B13148E9C3E922AD3 /* Pods_home_control.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DCF3DB9F9D0CA7AD66B7166BB9300247 /* SwiftSiriWaveformView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 11E7DF40E24589AC31A6BCCC52D0428B /* Build configuration list for PBXNativeTarget "SwiftSiriWaveformView" */;
-			buildPhases = (
-				5210A55C8168778B71DB2B6A7632AEE1 /* Headers */,
-				63C99DE372E4591F46ABB6163AE20F94 /* Sources */,
-				F46E06CC3363D850A11EC2C5D131C458 /* Frameworks */,
-				B9A36E7E131E7105B24BE840F7759717 /* Resources */,
+				45909FCA2E0B94FDA4FF2209399F9CEC /* Headers */,
+				8E747F7147EF54E39A638C473CC0F87B /* Sources */,
+				727B73AF89CA399A22C50A3E3F6DF47C /* Frameworks */,
+				038305181012FEBF69AFDAB5A1E77FB1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -218,7 +333,64 @@
 			);
 			name = SwiftSiriWaveformView;
 			productName = SwiftSiriWaveformView;
-			productReference = C538D1339EF7B3D82243208D984E584B /* SwiftSiriWaveformView.framework */;
+			productReference = 53FAF6CA500856F0FC9078FA5EFB5E56 /* SwiftSiriWaveformView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		82AE1420817FCFAE271967BD54517F20 /* Pods-home control */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 601C90AF02F23DCE23A42A09C5D03D5A /* Build configuration list for PBXNativeTarget "Pods-home control" */;
+			buildPhases = (
+				CF3A6CB46CEF4FF3870BCEAB7D44C983 /* Headers */,
+				05523BFFAF4A3178156F3E490075119D /* Sources */,
+				C3B3108A16569D8F13D19F2732B973A2 /* Frameworks */,
+				2DC4FCCD42F73DB143BEEA56F5C8A7C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F836A2A4085C57B5A6738E1C725C5DA /* PBXTargetDependency */,
+				79AACF24474B3AB18D657283756DB973 /* PBXTargetDependency */,
+				7D0C439166DD86F3BB088D80BA567B61 /* PBXTargetDependency */,
+			);
+			name = "Pods-home control";
+			productName = "Pods-home control";
+			productReference = 2AD0AD86D8E709F9B55400F3968E396E /* Pods_home_control.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9D1D38F25C0E5764482DB77596403BB1 /* Peep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97016BAFEEAA6B27D622A3572C5A297C /* Build configuration list for PBXNativeTarget "Peep" */;
+			buildPhases = (
+				0DA7E4C0290E92472EB7BC3B13CE9E2F /* Headers */,
+				CAEB3AC040B36E640E1B9AA318B79C18 /* Sources */,
+				89F1B1E407DE315465319C088F53E4DE /* Frameworks */,
+				3B984A0737846737371D7D0431ABF64C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Peep;
+			productName = Peep;
+			productReference = 6DA39062C3C275A891BB45266FAA00FB /* Peep.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7517CF86D270C70047D94D3C176D546 /* Haptica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E0E233B3F4A2699AF85F010B7E29DA4 /* Build configuration list for PBXNativeTarget "Haptica" */;
+			buildPhases = (
+				855E9349591A3DDB6DC65A354ECE6684 /* Headers */,
+				20991D620633C241DE8683A898E7ECF7 /* Sources */,
+				64C2B83574C929D3AA62BCCA4AF7EC69 /* Frameworks */,
+				E9E9FA4E3B301AE71977729A37FCFA26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Haptica;
+			productName = Haptica;
+			productReference = 3334BC7297862B172C017863A4227179 /* Haptica.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -238,25 +410,41 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = AA0B094BDF5C3DEA1BDF30AF408CB6AE /* Products */;
+			productRefGroup = A3E732D8DC9AAC377B9F3D19A3AAE30F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1195909753D18E2046BFCCE72DCE53C8 /* Pods-home control */,
-				DCF3DB9F9D0CA7AD66B7166BB9300247 /* SwiftSiriWaveformView */,
+				F7517CF86D270C70047D94D3C176D546 /* Haptica */,
+				9D1D38F25C0E5764482DB77596403BB1 /* Peep */,
+				82AE1420817FCFAE271967BD54517F20 /* Pods-home control */,
+				33CD8AB1BC9E8BA388FD0EFAB601B3E6 /* SwiftSiriWaveformView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4F4DA70D80EC8A98614FFBF4DA326A31 /* Resources */ = {
+		038305181012FEBF69AFDAB5A1E77FB1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B9A36E7E131E7105B24BE840F7759717 /* Resources */ = {
+		2DC4FCCD42F73DB143BEEA56F5C8A7C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B984A0737846737371D7D0431ABF64C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9E9FA4E3B301AE71977729A37FCFA26 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -266,38 +454,72 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		63C99DE372E4591F46ABB6163AE20F94 /* Sources */ = {
+		05523BFFAF4A3178156F3E490075119D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				955CF49DE023C65E258C5AA50F2F7198 /* SwiftSiriWaveformView-dummy.m in Sources */,
-				DD682A92E07390C6303F014011ED747D /* SwiftSiriWaveformView.swift in Sources */,
+				F899EAEA85F0619ADB9A4786817B6DF8 /* Pods-home control-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F54C08C7810E34703B718BD9015347F /* Sources */ = {
+		20991D620633C241DE8683A898E7ECF7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6511C4D67645B73013924EE3803808B /* Pods-home control-dummy.m in Sources */,
+				67D0EB7FCAB57D1D09F250CE095DCE55 /* Associated.swift in Sources */,
+				B1CD6A1FBE5CAEC1C5A8FD564C41E8AA /* Extensions.swift in Sources */,
+				DE430218B618C0A4801AE929C1802D01 /* Haptic.swift in Sources */,
+				11D69A880D75079E80168D641A768180 /* Haptica-dummy.m in Sources */,
+				A6DCD755C989A5D56E82BB3D7C155872 /* Hapticable.swift in Sources */,
+				2650BC20C3CB08ABA39892E7BF5EF63A /* Pattern.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E747F7147EF54E39A638C473CC0F87B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D0404F1B815D9F4B76512AA1C081CF0 /* SwiftSiriWaveformView-dummy.m in Sources */,
+				F9CA3CFBA6B93F3197F8280376C65983 /* SwiftSiriWaveformView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEB3AC040B36E640E1B9AA318B79C18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FE647318EA744032B74FA37932D70B5 /* Peep-dummy.m in Sources */,
+				C27357AF7CACB81C8CA93CAB01ABC888 /* Peep.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		294B1490D502CEDF6FC6CDBDC65F1D76 /* PBXTargetDependency */ = {
+		79AACF24474B3AB18D657283756DB973 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Peep;
+			target = 9D1D38F25C0E5764482DB77596403BB1 /* Peep */;
+			targetProxy = 4EA2EA373C04EA077D5F8B0CEA9DC93E /* PBXContainerItemProxy */;
+		};
+		7D0C439166DD86F3BB088D80BA567B61 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftSiriWaveformView;
-			target = DCF3DB9F9D0CA7AD66B7166BB9300247 /* SwiftSiriWaveformView */;
-			targetProxy = 0FD11F1B6A30F20908D27F2BD9B200D6 /* PBXContainerItemProxy */;
+			target = 33CD8AB1BC9E8BA388FD0EFAB601B3E6 /* SwiftSiriWaveformView */;
+			targetProxy = 00E6DBD43734096CA29A27634367479A /* PBXContainerItemProxy */;
+		};
+		8F836A2A4085C57B5A6738E1C725C5DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Haptica;
+			target = F7517CF86D270C70047D94D3C176D546 /* Haptica */;
+			targetProxy = 46FBECC6CA6E8499E31FBF667FE2FD97 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		03F6F1383A931B328CAA85F6541C342A /* Debug */ = {
+		0E6433BD7956A13074D38FEEC14C747B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FE3E4E07DC34AEA4FEA40A74D9DE49C /* SwiftSiriWaveformView.xcconfig */;
+			baseConfigurationReference = C26A49FD95D9370D8C5FE7453A48E758 /* SwiftSiriWaveformView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -330,7 +552,45 @@
 			};
 			name = Debug;
 		};
-		0AFC85C454F4782AD1E00C7B9B108725 /* Release */ = {
+		2A9ECB9818166998E265CD0D84FB5459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BA8B0940A9728BAA07BA0BD8E9194A8 /* Pods-home control.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-home control/Pods-home control-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-home control/Pods-home control.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3C157EADA2281C3BCD638D45F4691FA1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B4FE3C45CA615BC00E74D57C8AA4E6F2 /* Pods-home control.release.xcconfig */;
 			buildSettings = {
@@ -362,6 +622,79 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4F7DEBC4CFC3D7FD7793FC25E89EC131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EAA16E7538E81B912FFB87BE6C40B80 /* Peep.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Peep/Peep-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Peep/Peep-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Peep/Peep.modulemap";
+				PRODUCT_MODULE_NAME = Peep;
+				PRODUCT_NAME = Peep;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		53FA8CED6E3277BC359F8DCA210929EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EAA16E7538E81B912FFB87BE6C40B80 /* Peep.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Peep/Peep-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Peep/Peep-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Peep/Peep.modulemap";
+				PRODUCT_MODULE_NAME = Peep;
+				PRODUCT_NAME = Peep;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -429,6 +762,78 @@
 			};
 			name = Release;
 		};
+		9F5D60DDE8E33D6A7B1947EECDB1F3F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B74024E244746B3C3412A16F402A51B /* Haptica.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Haptica/Haptica-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Haptica/Haptica-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Haptica/Haptica.modulemap";
+				PRODUCT_MODULE_NAME = Haptica;
+				PRODUCT_NAME = Haptica;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B74BE27D2FF4FFA98C14E4A5D9263D75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C26A49FD95D9370D8C5FE7453A48E758 /* SwiftSiriWaveformView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSiriWaveformView/SwiftSiriWaveformView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSiriWaveformView/SwiftSiriWaveformView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftSiriWaveformView/SwiftSiriWaveformView.modulemap";
+				PRODUCT_MODULE_NAME = SwiftSiriWaveformView;
+				PRODUCT_NAME = SwiftSiriWaveformView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -493,9 +898,9 @@
 			};
 			name = Debug;
 		};
-		D9870DD88A7F45639D3907ACA8AF257D /* Release */ = {
+		FD7E328530343B9FD522431E599FFACF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FE3E4E07DC34AEA4FEA40A74D9DE49C /* SwiftSiriWaveformView.xcconfig */;
+			baseConfigurationReference = 4B74024E244746B3C3412A16F402A51B /* Haptica.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -506,61 +911,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftSiriWaveformView/SwiftSiriWaveformView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftSiriWaveformView/SwiftSiriWaveformView-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Haptica/Haptica-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Haptica/Haptica-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/SwiftSiriWaveformView/SwiftSiriWaveformView.modulemap";
-				PRODUCT_MODULE_NAME = SwiftSiriWaveformView;
-				PRODUCT_NAME = SwiftSiriWaveformView;
+				MODULEMAP_FILE = "Target Support Files/Haptica/Haptica.modulemap";
+				PRODUCT_MODULE_NAME = Haptica;
+				PRODUCT_NAME = Haptica;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F22669C97DA849E36EDD8184DD65ABC2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BA8B0940A9728BAA07BA0BD8E9194A8 /* Pods-home control.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-home control/Pods-home control-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-home control/Pods-home control.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -570,29 +936,47 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		07E66B0C22A886DC2B32990437FAB620 /* Build configuration list for PBXNativeTarget "Pods-home control" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F22669C97DA849E36EDD8184DD65ABC2 /* Debug */,
-				0AFC85C454F4782AD1E00C7B9B108725 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		11E7DF40E24589AC31A6BCCC52D0428B /* Build configuration list for PBXNativeTarget "SwiftSiriWaveformView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				03F6F1383A931B328CAA85F6541C342A /* Debug */,
-				D9870DD88A7F45639D3907ACA8AF257D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */,
 				84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		601C90AF02F23DCE23A42A09C5D03D5A /* Build configuration list for PBXNativeTarget "Pods-home control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A9ECB9818166998E265CD0D84FB5459 /* Debug */,
+				3C157EADA2281C3BCD638D45F4691FA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97016BAFEEAA6B27D622A3572C5A297C /* Build configuration list for PBXNativeTarget "Peep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F7DEBC4CFC3D7FD7793FC25E89EC131 /* Debug */,
+				53FA8CED6E3277BC359F8DCA210929EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E0E233B3F4A2699AF85F010B7E29DA4 /* Build configuration list for PBXNativeTarget "Haptica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7E328530343B9FD522431E599FFACF /* Debug */,
+				9F5D60DDE8E33D6A7B1947EECDB1F3F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E78C09FC5557D87BA296BF7AF6CAAEDD /* Build configuration list for PBXNativeTarget "SwiftSiriWaveformView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6433BD7956A13074D38FEEC14C747B /* Debug */,
+				B74BE27D2FF4FFA98C14E4A5D9263D75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
