@@ -18,36 +18,68 @@
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oIF-BD-CCZ" customClass="SwiftSiriWaveformView" customModule="SwiftSiriWaveformView">
-                                <rect key="frame" x="101" y="595" width="1199" height="302"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ed-R5-Tqh">
-                                <rect key="frame" x="101" y="271" width="1175" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ed-R5-Tqh">
+                                <rect key="frame" x="183" y="52" width="1000" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1000" id="QVQ-uT-qaq"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AMq-1c-JEl">
-                                <rect key="frame" x="630" y="83" width="117" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
-                                <state key="normal" title="Haptic test"/>
-                                <connections>
-                                    <action selector="hapticTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wT4-cW-ZPd"/>
-                                </connections>
-                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oIF-BD-CCZ" customClass="SwiftSiriWaveformView" customModule="SwiftSiriWaveformView">
+                                <rect key="frame" x="233" y="784" width="900" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="XPt-wN-6YL"/>
+                                    <constraint firstAttribute="width" constant="900" id="q64-r6-9oz"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c5h-kH-7gc">
+                                <rect key="frame" x="583" y="205" width="200" height="200"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="ISC-1e-3Na"/>
+                                    <constraint firstAttribute="height" constant="200" id="J8W-xi-ecI"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bDf-nW-IWU">
+                                <rect key="frame" x="903" y="205" width="200" height="200"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="M8V-zK-634"/>
+                                    <constraint firstAttribute="width" constant="200" id="Qcx-B2-AYO"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e5a-K7-hQ4">
+                                <rect key="frame" x="263" y="205" width="200" height="200"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Tou-bJ-FsN"/>
+                                    <constraint firstAttribute="height" constant="200" id="wdR-Gh-rwy"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="1ed-R5-Tqh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ALo-cy-Hni"/>
+                            <constraint firstItem="bDf-nW-IWU" firstAttribute="leading" secondItem="c5h-kH-7gc" secondAttribute="trailing" constant="120" id="Jjj-2q-qMn"/>
+                            <constraint firstItem="oIF-BD-CCZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LXe-MV-Tex"/>
+                            <constraint firstItem="bDf-nW-IWU" firstAttribute="top" secondItem="1ed-R5-Tqh" secondAttribute="bottom" constant="132" id="MBd-dD-oG0"/>
+                            <constraint firstItem="c5h-kH-7gc" firstAttribute="top" secondItem="1ed-R5-Tqh" secondAttribute="bottom" constant="132" id="XbT-mY-0wx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="oIF-BD-CCZ" secondAttribute="bottom" constant="40" id="bHk-WK-TFh"/>
+                            <constraint firstItem="e5a-K7-hQ4" firstAttribute="top" secondItem="1ed-R5-Tqh" secondAttribute="bottom" constant="132" id="rmi-3V-cQu"/>
+                            <constraint firstItem="1ed-R5-Tqh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="tRd-GB-6eM"/>
+                            <constraint firstItem="c5h-kH-7gc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="u9X-6V-nho"/>
+                            <constraint firstItem="c5h-kH-7gc" firstAttribute="leading" secondItem="e5a-K7-hQ4" secondAttribute="trailing" constant="120" id="zxe-c1-FIo"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="audioWaveView" destination="oIF-BD-CCZ" id="6m4-K7-b24"/>
+                        <outlet property="dance" destination="bDf-nW-IWU" id="QVR-72-7e8"/>
                         <outlet property="detectedTextLabel" destination="1ed-R5-Tqh" id="msv-ha-LTL"/>
-                        <outlet property="hapticResponder" destination="AMq-1c-JEl" id="4dE-Lp-J2w"/>
+                        <outlet property="killers" destination="c5h-kH-7gc" id="A2W-Iy-pcT"/>
+                        <outlet property="queen" destination="e5a-K7-hQ4" id="YkX-uF-x3A"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -12,8 +12,7 @@
 import UIKit
 import Speech
 import SwiftSiriWaveformView
-import Haptica
-import Peep
+
 
 
 class ViewController: UIViewController, SFSpeechRecognizerDelegate, AVAudioRecorderDelegate {
@@ -29,11 +28,11 @@ class ViewController: UIViewController, SFSpeechRecognizerDelegate, AVAudioRecor
     
     var recorder: AVAudioRecorder!
 
-    @IBOutlet weak var hapticResponder: UIButton!{
-        didSet {
-            hapticResponder.addHaptic(.impact(.heavy), forControlEvents: .touchUpInside)
-        }
-    }
+    @IBOutlet weak var queen: UIView!
+    
+    @IBOutlet weak var killers: UIView!
+    
+    @IBOutlet weak var dance: UIView!
     
     
     @IBOutlet weak var audioWaveView: SwiftSiriWaveformView!
@@ -84,9 +83,7 @@ class ViewController: UIViewController, SFSpeechRecognizerDelegate, AVAudioRecor
 //        colourView.backgroundColor = .green
     }
     
-    @IBAction func hapticTouch(_ sender: UIButton) {
-         Peep.play(sound: AlertTone.tweet)
-    }
+
     
     
     func requestSpeechAuthorization() {
@@ -151,13 +148,18 @@ class ViewController: UIViewController, SFSpeechRecognizerDelegate, AVAudioRecor
                     
                     let string = lastSegment.substring
                     
-                    if string.lowercased() == "eat" {
-                        self.view.backgroundColor = .green
-                    } else if string.lowercased() == "be" {
-                        Haptic.play("..oO-Oo..", delay: 0.1)
-                        self.view.backgroundColor = .red
-                    } else if string.lowercased() == "black" {
-                        self.view.backgroundColor = .black
+                    if string.lowercased() == "left" {
+                        self.queen.backgroundColor = .green
+                        self.killers.backgroundColor = .darkGray
+                        self.dance.backgroundColor = .darkGray
+                    } else if string.lowercased() == "jump" {
+                        self.queen.backgroundColor = .darkGray
+                        self.killers.backgroundColor = .red
+                        self.dance.backgroundColor = .darkGray
+                    } else if string.lowercased() == "right" {
+                        self.queen.backgroundColor = .darkGray
+                        self.killers.backgroundColor = .darkGray
+                        self.dance.backgroundColor = .blue
                     }
                     
                     /////////////////////////////////////////////////////////////////////
@@ -179,7 +181,7 @@ class ViewController: UIViewController, SFSpeechRecognizerDelegate, AVAudioRecor
     
     @objc internal func refreshAudioView(_: Timer) {
         // Simply set the amplitude to whatever you need and the view will update itself.
-        self.audioWaveView.amplitude = 0.7
+        self.audioWaveView.amplitude = 0.9
         
         recorder.updateMeters()
         
